@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: wi;
+    margin: 5px;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    background-color:rgb(64, 43, 132);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33.33% - 10px); 
+    margin: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center; 
+    
+}
+
+.mi_P {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+h3 {
+    font-size: 18px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.traer_personajes {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(36, 33, 33);
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
